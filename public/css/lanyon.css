@@ -225,6 +225,7 @@ a.sidebar-nav-item:focus {
   padding-bottom: .125rem;
   border-top: .375rem double;
   border-bottom: .125rem solid;
+	
 
   /* Make the border inside the box */
   -webkit-box-sizing: border-box;
