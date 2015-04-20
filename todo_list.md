@@ -5,17 +5,12 @@ title: Project Backlog
 
 1. Organize my stuff (figure out how to create a search index of my stuff)
 2. Get everything under version control with backup -- git-annex maybe?
-3. Renew projectsnailtrail.org (or find a better domain)
-    * Done -- account good through 2017
-    * read this -- https://support.godaddy.com/help/article/680/managing-dns-for-your-domain-names
-    * Update cname, mx records and any other ones that make sense in order to:
-        * forward emails somewhere I can use (i.e. gmail or beaker)
-        * allow me to use some subdomain to log into beaker (instead of my dyndns url)
-        * move the snailtrail website over to a different host         
-4. Upgrade octopress site
-	* Let's stop hosting this on s3 -- run it on beaker (or maybe drbunsen -- ha ha ha ha) or github pages
-	* Switch over from octopress to jekyll
+4. Upgrade snailtrail site
+    * currently based on _lanyon_ theme for jekyll, would like something that degrades better
+    * organize the content/sections better (this can wait until there's actually some more content to organize)
 	* install the [lunr.js](http://lunrjs.com/) [plugin for jekyll](http://10consulting.com/2013/03/06/jekyll-and-lunr-js-static-websites-with-powerful-full-text-search-using-javascript/)
+    * setup mx records to forward emails somewhere I can use (i.e. gmail or beaker)
+    * the site is completely static and hosted on github pages, but it would be nice to add in some more dynamic sections like a wiki or private pages with some authentication required -- figure out how to do this hosted from beaker, bunsen or an ec2 instance
 	* Look into js-git (or is it git.js?) -- my dream would be to host a git repo as a static read only site (ideally with no preprocessing necessary) and provide a github like browsing experience -- all done on the client/browser side with javascript. I don't necessarily need `diff` level capability, but basic browsing of current state and historical state along with some nice formatting of markdown readme files.
 5. Get into the flow of _blogging_ everything. 
     * This todo list (items should link to blog categories)
